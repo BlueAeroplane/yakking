@@ -20431,7 +20431,7 @@ var WaitingRoom = React.createClass({displayName: "WaitingRoom",
   render: function() {
     return (
       React.createElement("div", {className: "panel panel-default"}, 
-      React.createElement("iframe", {width: "560", height: "315", src: "https://www.youtube.com/embed/XyNlqQId-nk", frameborder: "0", allowfullscreen: true}), 
+      React.createElement("iframe", {src: "https://www.youtube.com/embed/XyNlqQId-nk", frameborder: "0", allowfullscreen: true}), 
         React.createElement("div", {className: "panel-body"}, 
           React.createElement("p", null, "There are no avalible people."), 
           React.createElement("p", null, "When there is you will be connected immediately")
