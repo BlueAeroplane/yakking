@@ -1,6 +1,7 @@
 <html>
   <head>
-    <title>Yakking - A chat site for anonymously connecting with new people through text.</title> 
+    <title>Yakking - A chat site for anonymously connecting with new people through text.</title>  
+    <script src="https://use.fontawesome.com/1ff18de800.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <meta name="viewport" content="initial-scale=1">
@@ -20,17 +21,16 @@
   <body class="layout-flex-column">  
 
 
-
-
-
 <div class="buttons"> 
  <button class="button buttonteal" onclick="teal()"></button>   
  <button class="button buttonblue" onclick="blue()"></button>
  <button class="button buttonnavy" onclick="navy()"></button>  
  <button class="button buttonblack" onclick="black()"></button>  
- <button class="button buttonred" onclick="red()"></button> 
+ <button class="button buttonred" onclick="red()"></button>  
  <button class="button buttonpink" onclick="pink()"></button>   
- <button class="button buttonpurple" onclick="purple()"></button> 
+ <button class="button buttonpurple" onclick="purple()"></button>  
+ <button class="button buttonorange" onclick="orange()"></button>  
+
 </div>
 
 
@@ -55,8 +55,12 @@ function pink() {
 } 
 function purple() {
     document.body.style.background = "#8A2BE2 no-repeat right top";
-}
-</script>
+} 
+function orange() {
+    document.body.style.background = "#FF851B no-repeat right top";
+}  
+</script> 
+
 
     <section id="react" class="flex layout-flex-column center-content"></section>
     <script src="js/bundle.js"></script>

@@ -15,7 +15,7 @@ var Login = React.createClass({
         <div className="form-group">
           <label>
            <h1>YAKKING</h1>  
-           <h4>A chat site for making friends!</h4>  
+           <h4>The site for making friends!</h4>  
             <input
               className="form-control"
               placeholder="Give yourself a name"
